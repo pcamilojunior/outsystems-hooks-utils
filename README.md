@@ -1,5 +1,7 @@
 # OutSystems Hooks Utils
 
+- List of Hooks that can save your life in day a day using Cordova plugins :) 
+
 ## Introduction
 Cordova Hooks represent special scripts which could be added by application and plugin developers or even by your own build system to customize cordova commands.
 
