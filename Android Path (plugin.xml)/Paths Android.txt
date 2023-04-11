@@ -1,0 +1,8 @@
+<source-file src="libs/android/fraudforce-lib-release-4.3.0.aar" target-dir="libs"/>
+Essa pasta libs aponta para:
+.../platforms/android/app/libs
+
+
+<source-file src="src/android/DeviceRisk.java" target-dir="src/com/outsystems/devicerisk" />
+Essa pasta aponta para:
+.../platforms/android/app/src/main/java/com/outsystems/devicerisk

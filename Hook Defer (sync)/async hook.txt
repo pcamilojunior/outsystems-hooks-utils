@@ -1,0 +1,9 @@
+https://stackoverflow.com/questions/41086015/make-cordova-wait-for-async-hook-to-finish
+
+module.exports = context => {
+    var deferral = require('q').defer();
+    doSomethingAsync(() => {
+      deferral.resolve();
+    });
+    return deferral.promise;
+};
