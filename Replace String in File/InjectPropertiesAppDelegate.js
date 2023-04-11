@@ -1,7 +1,7 @@
 var fs = require('fs'), path = require('path');
 
 module.exports = function(context) {
-    var appDelegate = path.join(context.opts.projectRoot, , "platforms", "ios", "ANB Mobile", "Classes", "AppDelegate.h");
+    var appDelegate = path.join(context.opts.projectRoot, "platforms", "ios", "ANB Mobile", "Classes", "AppDelegate.h");
     console.log("✅ appDelegate: " + appDelegate);    
     if (fs.existsSync(appDelegate)) {
      

@@ -1,1 +1,1 @@
-# outsystems-hooks-utils
+# OutSystems Hooks Utils
